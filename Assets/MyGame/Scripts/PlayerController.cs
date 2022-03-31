@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.instance.GameOver();
             Destroy(collision.gameObject);
-            anim.Play("SantaDeath");
+            anim.Play("BunnyDeath");
             gameOver = SetGameOverTrue();
         }
     }
